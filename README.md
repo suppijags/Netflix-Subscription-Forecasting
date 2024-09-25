@@ -1,0 +1,5 @@
+**Netflix Subscription Forecasting**
+
+This project focuses on forecasting Netflix subscription numbers using Python. The forecasting process begins by importing essential libraries such as pandas, numpy, and statsmodels for data manipulation and analysis. The first step involves performing the Dickey-Fuller test to check the stationarity of the time series data. Stationarity is crucial for time series forecasting as it ensures that the statistical properties like mean and variance remain constant over time. 
+
+Once stationarity is established, we generate Autocorrelation (ACF) and Partial Autocorrelation (PACF) plots to understand the correlation between data points at different lags. These plots help in identifying the order of the ARIMA model for accurate forecasting. After analyzing the ACF and PACF, we proceed to build a predictive model using the ARIMA or SARIMA methodology. The model is trained on historical data, and once it achieves a good fit, it is used to predict future subscription numbers. This process helps in strategic planning and decision-making for the streaming service.
